@@ -220,7 +220,7 @@ Running both commands in sequence validates the API flows and regenerates `agent
 ## Operational Notes
 
 - Provide a valid **GOOGLE_API_KEY** so Gemini and the embedded Vanna agent can operate. Without it, Text-to-SQL generation will raise `ImproperlyConfigured`.
-- Optional overrides: set `VANNA_MODEL`, `PERSONALIZATION_MODEL`, `DOCUMENT_QUERY_MODEL`, or `AGENT_ROUTER_MODEL` in `.env` to point each agent path at specific Gemini releases (e.g. `gemini-1.5-pro-latest` for personalization and `gemini-1.5-flash` for RAG/SQL).
+- Optional overrides: set `VANNA_MODEL`, `PERSONALIZATION_MODEL`, `DOCUMENT_QUERY_MODEL`, or `AGENT_ROUTER_MODEL` in `.env` to point each agent path at specific Gemini releases (e.g. `gemini-2.0-flash` for personalization and `gemini-2.0-flash` for RAG/SQL).
 - Chroma persistence directories are auto-created based on environment variables.
 - Set `CAMPAIGN_EMAIL_OVERRIDE` to capture all nurture emails at a mock/demo address; otherwise messages go to each lead’s email on record.
 - Email/WhatsApp delivery and external deployments are outside the scope of this challenge.
