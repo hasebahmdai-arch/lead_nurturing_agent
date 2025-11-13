@@ -1,0 +1,123 @@
+[
+  {
+    "model": "crm.lead",
+    "pk": 1,
+    "fields": {
+      "user": null,
+      "crm_id": "CRM-ALT-001",
+      "first_name": "Morgan",
+      "last_name": "Shaw",
+      "email": "morgan.shaw@example.com",
+      "phone_number": "+971500000001",
+      "project_enquired": "Altura",
+      "unit_type": "2 bed",
+      "status": "connected",
+      "budget_min": "650000.00",
+      "budget_max": "800000.00",
+      "family_size": 3,
+      "location_preference": "Downtown Dubai",
+      "purchase_motive": "Primary residence",
+      "financing_readiness": "Mortgage pre-approved",
+      "profile_metadata": {"children": 1},
+      "last_conversation_date": "2024-08-12",
+      "last_conversation_summary": "Looking for family-friendly amenities and quick move-in."
+    }
+  },
+  {
+    "model": "crm.lead",
+    "pk": 2,
+    "fields": {
+      "user": null,
+      "crm_id": "CRM-BEA-042",
+      "first_name": "Hannah",
+      "last_name": "Lee",
+      "email": "hannah.lee@example.com",
+      "phone_number": "+971500000042",
+      "project_enquired": "Beachgate by Address",
+      "unit_type": "3 bed",
+      "status": "visit_scheduled",
+      "budget_min": "1200000.00",
+      "budget_max": "1500000.00",
+      "family_size": 4,
+      "location_preference": "Emaar Beachfront",
+      "purchase_motive": "Holiday home",
+      "financing_readiness": "Cash buyer",
+      "profile_metadata": {"hobbies": ["sailing", "kayaking"]},
+      "last_conversation_date": "2024-09-28",
+      "last_conversation_summary": "Interested in sea views and marina access. Visit set for next week."
+    }
+  },
+  {
+    "model": "crm.lead",
+    "pk": 3,
+    "fields": {
+      "user": null,
+      "crm_id": "CRM-DAM-105",
+      "first_name": "Rahul",
+      "last_name": "Patel",
+      "email": "rahul.patel@example.com",
+      "phone_number": "+971500000105",
+      "project_enquired": "Damac Bay by Cavalli",
+      "unit_type": "duplex",
+      "status": "connected",
+      "budget_min": "2200000.00",
+      "budget_max": "2600000.00",
+      "family_size": 2,
+      "location_preference": "Dubai Harbour",
+      "purchase_motive": "Investment",
+      "financing_readiness": "Exploring mortgage options",
+      "profile_metadata": {"preferred_view": "marina"},
+      "last_conversation_date": "2024-07-03",
+      "last_conversation_summary": "Requested rental yield projections and developer payment plans."
+    }
+  },
+  {
+    "model": "crm.lead",
+    "pk": 4,
+    "fields": {
+      "user": null,
+      "crm_id": "CRM-LUM-207",
+      "first_name": "Sara",
+      "last_name": "Nguyen",
+      "email": "sara.nguyen@example.com",
+      "phone_number": "+971500000207",
+      "project_enquired": "Lumina Grand",
+      "unit_type": "1 bed",
+      "status": "not_connected",
+      "budget_min": "420000.00",
+      "budget_max": "520000.00",
+      "family_size": 1,
+      "location_preference": "Al Furjan",
+      "purchase_motive": "First home",
+      "financing_readiness": "Awaiting salary certificate",
+      "profile_metadata": {},
+      "last_conversation_date": "2024-05-19",
+      "last_conversation_summary": "Left voicemail about limited-time launch offer."
+    }
+  },
+  {
+    "model": "crm.lead",
+    "pk": 5,
+    "fields": {
+      "user": null,
+      "crm_id": "CRM-SOB-315",
+      "first_name": "James",
+      "last_name": "O'Connor",
+      "email": "james.oconnor@example.com",
+      "phone_number": "+971500000315",
+      "project_enquired": "Sobha Crest",
+      "unit_type": "4 bed",
+      "status": "visit_done_not_purchased",
+      "budget_min": "1800000.00",
+      "budget_max": "2100000.00",
+      "family_size": 5,
+      "location_preference": "Sobha Hartland",
+      "purchase_motive": "Upgrade",
+      "financing_readiness": "Equity transfer in process",
+      "profile_metadata": {"pet_friendly": true},
+      "last_conversation_date": "2024-10-04",
+      "last_conversation_summary": "Requested follow-up with detailed floor plans and school proximity."
+    }
+  }
+]
+

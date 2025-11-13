@@ -1,0 +1,17 @@
+.venv/
+media/
+storage/
+tmp/
+.pytest_cache/
+.deepeval/
+frontend/
+*.log
+*.pyc
+__pycache__/
+.DS_Store
+node_modules/
+.idea/
+.env
+agent_evaluation_scores.json
+db.sqlite3
+bbc5e661e106c6dc/
