@@ -8,7 +8,7 @@ An automation layer for real-estate sales teams built with **Django Ninja**, **L
 
 | Layer | Implementation | Notes                                                                                                                                                     |
 | --- | --- |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Core backend | **Django 5** + **Django Ninja** | High-performance REST API with automatic OpenAPI docs                                                                                                     |
+| Core backend | **Django Ninja** | High-performance REST API with automatic OpenAPI docs                                                                                                     |
 | AI orchestration | **LangGraph** | Routes between RAG and Text-to-SQL toolchains                                                                                                             |
 | LLMs | **Google Gemini** (`GOOGLE_API_KEY`) | Defaults: `DEFAULT_GEMINI_MODEL` → `gemini-2.0-flash`; override with `VANNA_MODEL`, `PERSONALIZATION_MODEL`, `DOCUMENT_QUERY_MODEL`, `AGENT_ROUTER_MODEL` |
 | Text-to-SQL | **Vanna** (local agent, `vanna.integrations.sqlite`) | Uses Gemini for reasoning and executes against SQLite                                                                                                     |
@@ -81,6 +81,8 @@ python manage.py createsuperuser  # optional, for Django admin
 ```bash
 python manage.py runserver
 ```
+
+OpenAPI docs are available at `http://localhost:8000/api/docs`.
 
 ---
 
