@@ -82,8 +82,6 @@ python manage.py createsuperuser  # optional, for Django admin
 python manage.py runserver
 ```
 
-OpenAPI docs are available at `http://localhost:8000/api/docs`.
-
 ---
 
 
