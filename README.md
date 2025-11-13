@@ -14,7 +14,6 @@ An automation layer for real-estate sales teams built with **Django Ninja**, **L
 | Text-to-SQL | **Vanna** (local agent, `vanna.integrations.sqlite`) | Uses Gemini for reasoning and executes against SQLite                                                                                                     |
 | Vector store | **ChromaDB** | Persisted under `CHROMA_DB_DIR` (defaults to `storage/chroma`)                                                                                            |
 | Database | **SQLite** (`db.sqlite3`) | Swap to PostgreSQL by editing `DATABASES` in `config/settings.py`                                                                                         |
-| Frontend | **React + Vite + TypeScript** | Optional console for exercising the API                                                                                                                   |
 | Testing | **Pytest** | Unit & integration tests for shortlist, campaigns, ingestion, LangGraph                                                                                   |
 | Evaluation | **DeepEval** | `run_eval.py` produces `agent_evaluation_scores.json`                                                                                                     |
 
